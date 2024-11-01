@@ -48,3 +48,23 @@
 [class^="col"]{
     padding: 15px;
 }
+
+.align-items-center {
+    align-items: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.t-center {
+    text-align: center;
+}
+.bg-red {
+    background-color: #fff;
+}
+#about h2 {
+
+}
+#about .container .row h3 {
+
+}
+.fz-1 {}

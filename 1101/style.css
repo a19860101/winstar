@@ -21,12 +21,9 @@ nav a {
     text-decoration: none;
     color: #000;
 }
-body {
-    height: 2000px;
-}
 header {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 10;
     /* height: 600px; */
     min-height: 400px;
     max-height: 600px;
@@ -56,3 +53,16 @@ header img {
 
     text-align: center;
 }
+/* #about .row {
+    align-items: center;
+} */
+/* #about .col-6:nth-of-type(3){
+    order:2;
+}
+#about .col-6:nth-of-type(4){
+    order:1;
+} */
+.order-1{order:1;}
+.order-2{order:2;}
+.order-3{order:3;}
+.order-4{order:4;}
