@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                //覆蓋設定
+                screens: {
+                    xl:'1200px',
+                    md:'700px'
+                },
+                //延伸設定
+                extend:{
+                    colors:{
+                        pink:'pink'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1 class="xl:text-6xl sm:text-3xl text-sm text-pink">RWD</h1>
+    <!-- <div class="w-[73px] h-[73px] bg-[#098]"></div> -->
+    <div class="container flex flex-wrap mx-auto">
+        <div class="w-1/3 p-4">
+            <h3 class="text-2xl font-bold">title</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus illo neque deserunt reprehenderit accusantium amet voluptatum nam nesciunt eligendi dolorem, saepe ipsum fugiat distinctio incidunt ipsam, repellendus explicabo earum non!
+            </p>
+            <a href="#" class="inline-block px-4 py-1 bg-amber-400 rounded-[15px]">Link</a>
+        </div>
+        <div class="w-1/3 p-4">
+            <h3 class="text-2xl font-bold">title</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus illo neque deserunt reprehenderit accusantium amet voluptatum nam nesciunt eligendi dolorem, saepe ipsum fugiat distinctio incidunt ipsam, repellendus explicabo earum non!
+            </p>
+            <a href="#" class="inline-block px-4 py-1 bg-amber-400 rounded-lg">Link</a>
+        </div>
+        <div class="w-1/3 p-4">
+            <h3 class="text-2xl font-bold">title</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus illo neque deserunt reprehenderit accusantium amet voluptatum nam nesciunt eligendi dolorem, saepe ipsum fugiat distinctio incidunt ipsam, repellendus explicabo earum non!
+            </p>
+            <a href="#" class="inline-block px-4 py-1 bg-amber-400">Link</a>
+        </div>
+    </div>
+</body>
+</html>
