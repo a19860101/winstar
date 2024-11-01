@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子模型</title>
+    <style>
+        *,*::before,*::after {
+            box-sizing: border-box;
+        }
+        .box {
+            background-color: #ccc;
+
+            /* size */
+            width: 200px;
+            /* max-width: 1200px; */
+            /* min-width: 600px; */
+            height: fit-content;
+            /* min-content, max-content,fit-content */
+            /* max-height: 400px; */
+            /* min-height: 300px; */
+
+            /* width:min(400px, 50%); */
+            /* width:max(); */
+
+
+            /* overflow */
+            overflow: hidden;
+            
+            /* padding */
+            /* padding: 30px; */
+            /* padding: 30px 0px; */
+            /* padding: 30px 100px 50px; */
+            /* padding: 30px 0px 20px 100px; */
+
+            /* padding-left:; */
+            /* padding-right:; */
+            /* padding-top:; */
+            /* padding-bottom:; */
+
+            /* padding-inline:; */
+            /* padding-inline-start:; */
+            /* padding-inline-end:; */
+            /* padding-block:; */
+            /* padding-block-start:; */
+            /* padding-block-end:; */
+            
+            /* margin */
+            /* margin: 30px; */
+            /* margin-inline: auto; */
+
+            /* border */
+            /* border: 1px solid #f00; */
+
+            /* border-style:; */
+            /* border-width:; */
+            /* border-color:; */
+
+            /* border-left:; */
+            /* border-right:; */
+            /* border-top:; */
+            /* border-bottom:; */
+
+            /* 
+            border-left-color: ;
+            border-left-width: ;
+            border-left-style: ;
+            border-right-color: ;
+            border-right-width: ;
+            border-right-style: ;
+            border-top-color: ;
+            border-top-width: ;
+            border-top-style: ;
+            border-bottom-color: ;
+            border-bottom-width: ;
+            border-bottom-style: ; 
+            */
+        }
+        /* .clearfix::after {
+            content:'';
+            display: block;
+        } */
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, vel.
+    </div>
+    <div class="box">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab voluptatibus repudiandae similique veniam ipsa aut quas nostrum est animi enim incidunt, asperiores quo eius. Saepe incidunt earum itaque, repellat excepturi quisquam repellendus? Atque soluta vitae blanditiis nobis deserunt, exercitationem velit, dolorum dolores laborum ipsam repellat, facilis modi doloremque neque! Perferendis hic beatae vero odio explicabo sunt quae quaerat omnis soluta!    
+    </div>
+    <div class="box">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab voluptatibus repudiandae similique veniam ipsa aut quas nostrum est animi enim incidunt, asperiores quo eius. Saepe incidunt earum itaque, repellat excepturi quisquam repellendus? Atque soluta vitae blanditiis nobis deserunt, exercitationem velit, dolorum dolores laborum ipsam repellat, facilis modi doloremque neque! Perferendis hic beatae vero odio explicabo sunt quae quaerat omnis soluta!    
+    </div>
+</body>
+</html>

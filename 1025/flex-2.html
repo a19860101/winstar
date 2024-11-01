@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex 2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 1200px;
+            max-width: 1200px;
+            margin-inline: auto;
+            background-color: #ccc;
+        
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            /* row, column, row-reverse, column-reverse */
+
+            /* 水平對齊 */
+            /* justify-content: start; */
+            /* 
+                start, center, end,
+                space-between, space-around, space-evenly
+            */
+
+            /* 垂直對齊 */
+            /* align-items: center; */
+            /* 
+                start, center, end,
+                stretch, baseline
+            */
+
+        }
+        .box {
+            width: 200px;
+            padding: 15px;
+            background-color: #fa0;
+
+            margin-inline: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nostrum illo iure alias? Nesciunt maxime consequuntur distinctio veniam, molestias quibusdam saepe, eaque quisquam et eveniet placeat reprehenderit sed corporis sit.
+            </p>
+        </div>
+        <div class="box">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tenetur fugiat dicta ipsum facere nulla culpa laboriosam consequatur modi ab, voluptatum iusto nisi ratione officia ullam dolore ut impedit, veritatis, maxime quod. Molestiae dignissimos, quam rem explicabo doloribus laboriosam. Rem amet dolorum delectus aspernatur quasi eligendi, iusto illum recusandae suscipit qui facere non officiis accusamus blanditiis explicabo dicta sapiente doloribus.
+            </p>
+        </div>
+        <div class="box">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia autem aspernatur consectetur ipsum libero inventore dolore. Rem dolorem sint enim est nisi aliquam a suscipit corrupti, aperiam incidunt mollitia earum in nemo! Officia illo illum adipisci ut, dolores sit quibusdam, distinctio officiis a excepturi cupiditate.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

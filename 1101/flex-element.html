@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 1200px;
+            display: flex;
+            background-color: #ccc;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+        }
+
+        .box {
+            width: 200px;
+            height: 300px;
+            /* flex-basis: 600px; */
+            /* flex-grow:3; */
+            /* flex-shrink: ; */
+
+            /* flex:0 0 33.33333%; */
+            /* grow shrink basis */
+
+            flex: 1 1 0;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .box:nth-of-type(odd) {
+            background-color: #fa0;
+        }
+
+        .box:nth-of-type(even) {
+            background-color: #0af;
+        }
+        /* .box:nth-of-type(1){order:3;} */
+        /* .box:nth-of-type(2){order:1;} */
+        /* .box:nth-of-type(3){order:4;} */
+        /* .box:nth-of-type(4){order:2;} */
+        /* .box:nth-of-type(5){order:6;} */
+        /* .box:nth-of-type(6){order:5;} */
+        /* 自然排序優先於人工排序 */
+
+        /* .box:nth-of-type(1) {
+            flex-grow: 0;
+            background-color: #234;
+            flex-shrink: 5;
+        }
+
+        .box:nth-of-type(2) {
+            flex-grow: 0;
+            background-color: #363;
+            flex-shrink: 2;
+        }
+
+        .box:nth-of-type(3) {
+            flex-grow: 0;
+            background-color: #776;
+            flex-shrink: 1;
+        } */
+        /* 
+            當flex-direction為row時，flex-basis表寬度； 
+            當flex-direction為column時，flex-basis表高度。 
+
+            flex-grow為延展，預設為0不延展
+            flex-shrink為壓縮，預設為1會壓縮，但會跟flex-wrap衝突；
+            當為wrap時，shrink會失效
+        */
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>title 1</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia omnis saepe dolorum ipsa reprehenderit
+                pariatur asperiores officiis magni maiores exercitationem?
+            </p>
+        </div>
+        <div class="box">
+            <h3>title 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia omnis saepe dolorum ipsa reprehenderit
+                pariatur asperiores officiis magni maiores exercitationem?
+            </p>
+        </div>
+        <div class="box">
+            <h3>title 3</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia omnis saepe dolorum ipsa reprehenderit
+                pariatur asperiores officiis magni maiores exercitationem?
+            </p>
+        </div>
+        <div class="w-100"></div>
+        <div class="box">
+            <h3>title 4</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia omnis saepe dolorum ipsa reprehenderit
+                pariatur asperiores officiis magni maiores exercitationem?
+            </p>
+        </div>
+        <div class="box">
+            <h3>title 5</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia omnis saepe dolorum ipsa reprehenderit
+                pariatur asperiores officiis magni maiores exercitationem?
+            </p>
+        </div>
+        <div class="box">
+            <h3>title 6</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia omnis saepe dolorum ipsa reprehenderit
+                pariatur asperiores officiis magni maiores exercitationem?
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

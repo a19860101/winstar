@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex 1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: #ccc;
+            /* width: 1200px; */
+            max-width: 1200px;
+            margin-inline: auto;
+        
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        /* .p-15 {
+            padding: 15px;
+        } */
+        .box-3 {
+            width: calc(100% / 3);
+            /* padding: 15px; */
+        }
+        .box-4 {
+            width: calc(100% / 4);
+            /* padding: 15px; */
+        }
+        .box-5 {
+            width: calc(100% / 5);
+            /* padding: 15px; */
+        }
+        [class|="box"]{
+            padding: 15px;
+        }
+        /* ^=,*=,$=,|= */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box-3 p-15">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nostrum illo iure alias? Nesciunt maxime consequuntur distinctio veniam, molestias quibusdam saepe, eaque quisquam et eveniet placeat reprehenderit sed corporis sit.
+            </p>
+        </div>
+        <div class="box-3 p-15">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tenetur fugiat dicta ipsum facere nulla culpa laboriosam consequatur modi ab, voluptatum iusto nisi ratione officia ullam dolore ut impedit, veritatis, maxime quod. Molestiae dignissimos, quam rem explicabo doloribus laboriosam. Rem amet dolorum delectus aspernatur quasi eligendi, iusto illum recusandae suscipit qui facere non officiis accusamus blanditiis explicabo dicta sapiente doloribus.
+            </p>
+        </div>
+        <div class="box-3 p-15">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia autem aspernatur consectetur ipsum libero inventore dolore. Rem dolorem sint enim est nisi aliquam a suscipit corrupti, aperiam incidunt mollitia earum in nemo! Officia illo illum adipisci ut, dolores sit quibusdam, distinctio officiis a excepturi cupiditate.
+            </p>
+        </div>
+        <div class="box-3 p-15">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia autem aspernatur consectetur ipsum libero inventore dolore. Rem dolorem sint enim est nisi aliquam a suscipit corrupti, aperiam incidunt mollitia earum in nemo! Officia illo illum adipisci ut, dolores sit quibusdam, distinctio officiis a excepturi cupiditate.
+            </p>
+        </div>
+        <div class="box-3 p-15">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia autem aspernatur consectetur ipsum libero inventore dolore. Rem dolorem sint enim est nisi aliquam a suscipit corrupti, aperiam incidunt mollitia earum in nemo! Officia illo illum adipisci ut, dolores sit quibusdam, distinctio officiis a excepturi cupiditate.
+            </p>
+        </div>
+        <div class="box-3 p-15">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia autem aspernatur consectetur ipsum libero inventore dolore. Rem dolorem sint enim est nisi aliquam a suscipit corrupti, aperiam incidunt mollitia earum in nemo! Officia illo illum adipisci ut, dolores sit quibusdam, distinctio officiis a excepturi cupiditate.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
